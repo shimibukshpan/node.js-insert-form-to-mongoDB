@@ -1,0 +1,40 @@
+<%- include('./templates/headerbootstrap')-%>
+<link rel="stylesheet" href="/CSS/style.css">
+<body>
+    <div class="container">
+        <div class="row">
+  <div class="col-12 mt-3">
+    <h1 class="display-3">Contact Our Company</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae, perferendis!</p>
+  </div>
+</div>
+ 
+<div class="row">
+  <div class="col-lg-6">
+    <form id="contact-form" action="" method="GET" novalidate="novalidate" autocomplete="on">
+      <div class="form-group">
+        <label for="firstname">* first Name:</label>
+        <input type="text" name="firstname" id="firstname" class="form-control">
+      </div>
+       <div class="form-group">
+        <label for="lastname">* last Name:</label>
+        <input type="text" name="lastname" id="lastname" class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="email">* Email:</label>
+        <input type="email" name="email" id="email" class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="phone">* Phone:</label>
+        <input type="tel" name="phone" id="phone" class="form-control">
+      </div>
+      <button type="submit" name="submit" value="Contact Me" class="btn btn-primary">Contact Me!</button>
+    </form>
+  </div>
+</div>
+    </div>
+<%- include('./templates/scrpitbootstrap')-%>
+  <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
